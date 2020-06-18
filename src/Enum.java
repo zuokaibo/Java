@@ -2,11 +2,9 @@
 // in this group, you can have many different types of data, and give this group a name Color,
 // and notice that, for instance variable declared in main method, its type is Color.
 
-
 enum Color {
     RED, GREEN, YELLOW, WHITE;
 }
-
 
 public class Enum {
     public static void main(String[] args) {
@@ -15,3 +13,16 @@ public class Enum {
         System.out.println("practice enum");
     }
 }
+
+// or you can declare it inside of class but must be outside of main method.
+//public class Enum {
+//    enum Color {
+//        RED, GREEN, YELLOW, WHITE;
+//    }
+//
+//    public static void main(String[] args) {
+//        Color c2 = Color. GREEN;
+//        System.out.println(c2);
+//
+//    }
+//}
